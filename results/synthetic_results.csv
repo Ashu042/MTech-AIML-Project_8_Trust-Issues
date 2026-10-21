@@ -1,3 +1,0 @@
-Dataset,Model,Accuracy,Precision,Recall,Macro-F1,MCC
-Synthetic reviews (project dataset),Text-only,1.0,1.0,1.0,1.0,1.0
-Synthetic reviews (project dataset),Text + metadata,1.0,1.0,1.0,1.0,1.0

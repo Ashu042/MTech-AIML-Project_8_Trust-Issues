@@ -1,0 +1,2 @@
+dataset_rows,train_rows,test_rows,random_seed,split,text_model,combined_model,metadata_features,dataset_type,design_note
+5000,4000,1000,42,Stratified 80/20 split,TF-IDF word unigrams/bigrams + Logistic Regression,Same TF-IDF + four metadata features + Logistic Regression,"rating, review_length, sentiment_score, rating_sentiment_mismatch",Synthetic controlled benchmark; not real-world data,Metadata signals are intentionally noisy and complementary to text to test whether metadata can add value under controlled assumptions.

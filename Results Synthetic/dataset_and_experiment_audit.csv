@@ -1,0 +1,2 @@
+original_rows,unique_review_texts,duplicate_text_rows_removed,rows_after_exact_text_deduplication,unique_texts_with_conflicting_labels,train_rows,test_rows,split,classifier,text_features,metadata_features,dataset_type
+5000,3961,1039,3961,0,3168,793,Stratified 80/20 after exact-text deduplication,Logistic Regression for both arms,"TF-IDF word unigrams/bigrams, max_features=3000, min_df=2",All 22 numeric features from project features.py,Synthetic project dataset; NOT real-world

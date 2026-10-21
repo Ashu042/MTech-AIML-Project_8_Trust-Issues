@@ -1,0 +1,3 @@
+model,accuracy,precision,recall,macro_f1,mcc,roc_auc_auxiliary,average_precision_auxiliary
+Text only,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Text + project engineered features,1.0,1.0,1.0,1.0,1.0,1.0,1.0

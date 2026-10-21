@@ -1,0 +1,4 @@
+# This is a reproducibility summary; the dataset and outputs in this package were generated
+# with a fixed random seed (42). See REPORT.md and data_dictionary.csv for the simulation design.
+# For a true real-world evaluation, replace the generated CSV with a properly licensed,
+# labelled real review dataset and rerun both model arms on the same split.

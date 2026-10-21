@@ -1,0 +1,9 @@
+column,meaning,provenance
+review_id,Unique synthetic row identifier,Generated identifier; not a feature
+review_text,Review text,Synthetic natural-language template with overlapping wording
+label,"Binary target: 0=genuine, 1=fake",Generated label for controlled simulation
+label_name,Human-readable target,genuine/fake
+rating,Star rating from 1 to 5,Noisy label-correlated signal
+review_length,Word count,Derived from review text
+sentiment_score,Synthetic sentiment score from -1 to 1,Noisy sentiment signal; not human annotated
+rating_sentiment_mismatch,Absolute difference between normalized rating and sentiment,Derived from rating and sentiment
